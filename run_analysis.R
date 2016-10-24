@@ -67,4 +67,5 @@ SummaryDataSet<- ActivityMeanStd %>% group_by_(.dots=dots) %>% summarise_each(fu
 
 # Output summary file
 # 30 subjects * 6 activities = 180 rows of summary data
-write.csv(SummaryDataSet,"RData/SummaryDataSet.csv")
+# write.csv(SummaryDataSet,"RData/SummaryDataSet.csv")
+write.table(SummaryDataSet,"RData/tidyData.txt", row.name = FALSE)
