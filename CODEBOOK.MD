@@ -267,9 +267,9 @@ The data is then reduced with ddply() to (activity,subject) -> colMeans()
 As it was not specified, missing combinations of activity and subject are output, with value NA.
 The column names are tidied by removing the mean() string, etc.
 
-This result is output as SummaryDataSet.csv
+This result is output as tidyData.txt
 
-Output File Columns Definition of SummaryDataSet.csv
+Output File Columns Definition of tidyData.txt
 
 OrdinalPosition	ColumnName	Description
 1	activityName	Recognizable name of Activity measured. Source file is activity_labels.txt. Values are 6 recognizable activity names.
